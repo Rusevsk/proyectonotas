@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Visualización de Notas</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-4">Notas Registradas</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nombre del Estudiante</th>
+                    <th>Asignaturas</th>
+                    <th>Corte</th>
+                    <th>Calificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for nota in notas %}
+                <tr>
+                    <td>{{ nombre_completo }}</td>
+                    <td>{{ nota.AsignaturaID }}</td>
+                    <td>{{ nota.Corte }}</td>
+                    <td>{{ nota.Calificacion }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+

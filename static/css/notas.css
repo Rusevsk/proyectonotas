@@ -1,0 +1,16 @@
+.banner {
+    background-color: #0b4e47;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+.banner img {
+    max-height: 50px;
+}
+.form-container {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}

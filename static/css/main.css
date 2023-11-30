@@ -1,0 +1,14 @@
+/* En tu archivo main.css */
+body {
+    background-image: url('../images/fondo_Bb.jpg');
+    background-size: cover;
+}
+/* Personalizar la barra de navegación */
+.navbar-custom {
+    background-color: #0b4e47;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white; /* Cambiar el color del texto para que contraste con el fondo oscuro */
+}
+
